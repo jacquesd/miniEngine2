@@ -1064,6 +1064,27 @@ void uipaint_splashScreen() {
   uicore_fadeInString("n", x + 128, y, stp, 255, 255, 255, 0);
   uicore_fadeInString("e", x + 144, y, stp, 255, 255, 255, 0);
   if (input_isKeyEvent()) return;
+
+  uicore_fadeInString("D", x + 14, y + 15, stp, 210, 190, 170, 0);
+  uicore_fadeInString("a", x + 28, y + 15, stp, 210, 190, 170, 0);
+  uicore_fadeInString("r", x + 42, y + 15, stp, 210, 190, 170, 0);
+  uicore_fadeInString("r", x + 56, y + 15, stp, 210, 190, 170, 0);
+  uicore_fadeInString("e", x + 70, y + 15, stp, 210, 190, 170, 0);
+  uicore_fadeInString("l", x + 84, y + 15, stp, 210, 190, 170, 0);
+  uicore_fadeInString("l", x + 98, y + 15, stp, 210, 190, 170, 0);
+  if (input_isKeyEvent()) return;
+
+  uicore_fadeInString("K", x + 116, y + 15, stp, 255, 255, 255, 0);
+  uicore_fadeInString("a", x + 130, y + 15, stp, 255, 255, 255, 0);
+  uicore_fadeInString("t", x + 144, y + 15, stp, 255, 255, 255, 0);
+  uicore_fadeInString("t", x + 158, y + 15, stp, 255, 255, 255, 0);
+  uicore_fadeInString("e", x + 172, y + 15, stp, 255, 255, 255, 0);
+  uicore_fadeInString("n", x + 186, y + 15, stp, 255, 255, 255, 0);
+  uicore_fadeInString("h", x + 200, y + 15, stp, 255, 255, 255, 0);
+  uicore_fadeInString("o", x + 214, y + 15, stp, 255, 255, 255, 0);
+  uicore_fadeInString("r", x + 228, y + 15, stp, 255, 255, 255, 0);
+  uicore_fadeInString("n", x + 242, y + 15, stp, 255, 255, 255, 0);
+  if (input_isKeyEvent()) return;
   
   core_delay(250);
   
